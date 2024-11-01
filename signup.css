@@ -1,0 +1,138 @@
+body{
+    background-color: khaki;
+    margin: 0px;
+}
+.page{  
+    width: 100%;
+}
+
+.header{
+    height: 90px;
+    background-color: hsla(14, 100%, 48%, 0.938);
+}
+
+.title{
+    /* width: 30%; */
+    color: white;
+    font-size: 55px;
+    margin-left: 10px;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    line-height: 90px;
+}
+
+.navigation{
+    width: 35%;
+    height: 90px;
+    float: right;
+    text-decoration: none;
+    line-height: 110px;
+}
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 100px;
+    /* padding-left: 120px; */
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;  
+    padding-right: 80px;
+}
+
+.signup{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+}
+.body{
+    height: 520px;
+    width: 30%;
+    background-color:#db8e09 ;
+    margin-left: 35%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+ 
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .container {
+    padding: 16px;
+  }
+  
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+.footer{
+    height: 20px;
+    width: 100%;
+    background-color:hsla(14, 100%, 48%, 0.938);
+    margin-top: 20px;
+}  
